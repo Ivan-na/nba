@@ -3,9 +3,13 @@ package io.imint.demo.nba.teams.dao;
 import java.util.List;
 
 /**
- * Created by ivan on 01/06/2016.
+ *
+ * <p>Desc</p>
+ *
+ * @author  idong
+ * @version V1.0, May 9, 2016 4:10:10 PM
  */
-public class TeamWithPlayers extends Team {
+public class    TeamWithPlayers extends Team {
     private List<Player> players;
 
     public TeamWithPlayers(Team team, List<Player> players) {
