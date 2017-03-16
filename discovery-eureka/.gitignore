@@ -1,7 +1,7 @@
 /target/
 /.settings/
+/.idea/
 /.classpath
 /.project
 /.mvn
-/.idea
 /discovery-eureka.iml
