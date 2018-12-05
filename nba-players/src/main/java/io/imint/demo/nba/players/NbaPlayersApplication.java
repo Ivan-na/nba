@@ -54,6 +54,7 @@ public class NbaPlayersApplication
      */
     @RequestMapping("/teams/{id}")
     public List<Player> getTeamPlayers(@PathVariable String id) {
+        System.out.println("------Value Print-------players Value="+players+", "+ "With Caller=NbaPlayersApplication.getTeamPlayers");
         return players.stream().filter(py -> py.getTeam().equalsIgnoreCase(id)).collect(Collectors.toList());
     }
 }
